@@ -17,6 +17,8 @@ RUN apt-get update \
         jq \
         openssh-client \
         procps \
+        python3 \
+        build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Pi Coding Agent and PI WEB at pinned versions
